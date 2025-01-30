@@ -29,3 +29,34 @@ Open your terminal or command prompt and clone the repository:
 ```bash
 git clone https://github.com/YOUR-USERNAME/finger-counting-ai.git
 cd finger-counting-ai
+
+```
+
+### Step 2: Install Required Packages
+
+Install the necessary Python packages using pip:
+
+```bash
+pip install opencv-python mediapipe pyttsx3
+
+```
+
+### Step 3: Run the Application
+
+You can now run the application with the following command:
+
+```bash
+python finger_counting.py
+
+```
+### Usage
+- Show your fingers in front of the camera.
+- The application will detect and count the fingers.
+- The counted number will be displayed on the screen and announced vocally.
+
+### Contributing
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+### License
+
+Contributions are welcome! Feel free to open an issue or submit a pull request.
